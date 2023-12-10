@@ -10,7 +10,7 @@ using namespace std;
 
 class Vehicle {
 public:
-    virtual void move() = 0; // pure virtual function 纯虚函数
+    virtual void move() = 0; // pure virtual function 纯虚函数 只定义不实现
 };
 
 

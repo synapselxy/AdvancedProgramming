@@ -9,5 +9,5 @@ void Amphibian::move() {
 }
 
 void Amphibian::switchMode(int order) {
-    cout<<"Amphibian switchmode "<<order;
+    cout<<"Amphibian switchmode "<<order<<'\n';
 }

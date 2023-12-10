@@ -9,7 +9,7 @@
 class Car : virtual public Vehicle{
 public:
     void move() override;
-    void drive();
+    static void drive();
 };
 
 

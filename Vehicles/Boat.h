@@ -9,7 +9,7 @@
 class Boat :virtual public Vehicle{
 public:
     void move() override;
-    void swim();
+    static void swim();
 };
 
 

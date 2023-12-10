@@ -45,9 +45,9 @@ void test05(FlyingCar c){
 }
 int main(){
     Fliewatueuet f;
-    test01(f);
-    test02(f);
-    test03(f);
-    test04(f);
-    test05(f);
+    test01(f); // Flietueuet
+    test02(f); // Amphibian
+    test03(f); // FlyingCar
+    test04(f); // Copied Amphibian
+    test05(f); // Copied FlyingCar
 }

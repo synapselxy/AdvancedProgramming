@@ -9,7 +9,7 @@
 class Aircraft : virtual public Vehicle{
 public:
     void move() override;
-    void fly();
+    static void fly();
 };
 
 

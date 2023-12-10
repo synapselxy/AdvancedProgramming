@@ -9,6 +9,6 @@ void Fliewatueuet::move() {
 }
 
 void Fliewatueuet::switchMode(int order) {
-    cout<<"Fliewatueuet switchMode: "<<order;
+    cout<<"Fliewatueuet switchMode: "<<order<<'\n';
     this->mode = order;
 }

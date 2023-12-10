@@ -5,9 +5,9 @@
 #include "FlyingCar.h"
 
 void FlyingCar::move() {
-    Aircraft::move();
+    cout<<"Flying car move\n";
 }
 
 void FlyingCar::switchMode(int order) {
-    cout<<"Flying car switchmode "<<order;
+    cout<<"Flying car switchmode "<<order<<'\n';
 }
