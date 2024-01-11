@@ -1,0 +1,1 @@
+F:\master\ courses\AP\AdvancedProgramming\rust\ap-rust\target\debug\ap-rust.exe: F:\master\ courses\AP\AdvancedProgramming\rust\ap-rust\src\lib.rs F:\master\ courses\AP\AdvancedProgramming\rust\ap-rust\src\main.rs
