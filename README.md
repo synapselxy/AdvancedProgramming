@@ -1,3 +1,3 @@
 This is my Advanced Programming in Wuerzburg.
-# This will include programming languages as C++, Rust and Haskell.
+# This will include basic knowledge as programming languages like C++, Rust, Haskell, and also Parallel programming in Java.
 will upload soon~ Thank you :)
