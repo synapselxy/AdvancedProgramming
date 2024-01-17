@@ -9,6 +9,7 @@ pub fn find_char(search: char, subject: &str) -> Option<usize> {
     None
 }
 
+// run test part, use command " cargo test "
 #[cfg(test)]
 mod test {
     use super:: *;
