@@ -1,7 +1,7 @@
 # Project exclude paths
 /cmake-build-debug/
 Cargo.lock
-/target/
-/.vscode/
-/.idea/
-/debug/
+target/
+.vscode
+.idea/
+debug/
