@@ -1,6 +1,6 @@
 
 
-public class ProducerConsumer {
+public class ProducerComsumer {
     // final keyword 基本数据类型的变量一旦在初始化之后便不能更改其值；引用类型的变量在对其初始化之后不能再让其指向另一个对象。
     private static final int capacity = 5; 
 
@@ -29,10 +29,12 @@ public class ProducerConsumer {
         t4.start();
         t5.start();
     }
-
-    
 }
 
-
+class Parellel_Quicksort {
+    public static void main(String args[]) {
+        
+    }
+}
 
 
