@@ -32,8 +32,21 @@ public class ProducerComsumer {
 }
 
 class Parellel_Quicksort {
+    @SuppressWarnings("FieldCanBeLocal");
+    private static int NUMBER_OF_ELEMENTS = 50000000;
+
     public static void main(String args[]) {
         
+        int[] data = new int[NUMBER_OF_ELEMENTS];
+
+        for (int i = 0; i < data.length; ++i) {
+            data[i] = (int)( Math.random() * Integer.MAX_VALUE );
+        }
+
+        ParallelQS qs = new ParallelQS(16);
+        qs.sort(data);
+
+        System.out.printf("Sorted %d elements with %d threads in %d ms.%n", data.length, qs.getThreadCount(), qs.getLastDuration());
     }
 }
 
